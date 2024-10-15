@@ -10,7 +10,7 @@ const Header = () => {
         <Link href="/">Home</Link>
         <Link href="/portfolio">Портфоліо</Link>
         <Link href="/consultation">Консультації</Link>
-        <Link href="/manipulation">Манізуляції</Link>
+        <Link href="/manipulation">Маніпуляції</Link>
         <Link href="/operation">Оперції</Link>
       </nav>
     </header>

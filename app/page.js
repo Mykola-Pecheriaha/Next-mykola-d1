@@ -1,16 +1,17 @@
 import Image from 'next/image'
-// import doctor from '../public/doctor.jpg'
 import Link from 'next/link'
 import styles from './page.module.css' // Використовуємо вже існуючий файл стилів
+import Breast from './components/Breast/Breast'
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      {/* Секція лікаря */}
       <section className={styles.doctorProfile}>
         <div className={styles.info}>
           <h2>Лікар</h2>
           <h1>
-            Пeчеряга Микола <br /> Миколайович
+            Печеряга Микола <br /> Миколайович
           </h1>
           <p>
             Практикуючий пластичний хірург <br /> з багаторічним досвідом
@@ -21,7 +22,7 @@ export default function Home() {
             <li>​​Більше 1000 проведених операцій</li>
             <li>​Член ВАПРЕХ і ОПРЕХ</li>​
           </ul>
-          <Link href="/doctor-portfolio" className={styles.button}>
+          <Link href="/portfolio" className={styles.button}>
             Подробно
           </Link>
         </div>
@@ -29,11 +30,16 @@ export default function Home() {
           <Image
             src="/doctor.jpg" // Шлях до зображення з папки public
             alt="Doctor"
-            width={1350} // Ширина зображення
-            height={1350} // Висота зображення
-            className={styles.doctorImage} // Додаємо клас для стилів (опціонально)
+            width={1350}
+            height={1350}
+            className={styles.doctorImage}
           />
         </div>
+      </section>
+
+      {/* Секція пластики грудей */}
+      <section className={styles.breastSurgery}>
+        <Breast /> {/* Додаємо компонент Breast */}
       </section>
     </div>
   )

@@ -53,3 +53,24 @@
 .button:hover {
   background-color: #005bb5;
 }
+.container {
+  padding: 20px;
+}
+
+.doctorProfile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  flex: 1;
+}
+
+.info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.breastSurgery {
+  margin-top: 50px;
+}
