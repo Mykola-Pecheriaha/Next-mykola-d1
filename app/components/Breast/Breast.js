@@ -7,7 +7,7 @@ const Breast = () => {
     <div className={styles.breastContainer}>
       <div className={styles.image}>
         <Image
-          src="/breast-surgery.jpg" // Зображення для пластики грудей (з папки public)
+          src="/1mammoplasty.jpg" // Зображення для пластики грудей (з папки public)
           alt="Breast Surgery"
           width={1350}
           height={1350}

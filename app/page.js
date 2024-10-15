@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './page.module.css' // Використовуємо вже існуючий файл стилів
 import Breast from './components/Breast/Breast'
+import Body from './components/Body/Body'
 
 export default function Home() {
   return (
@@ -40,6 +41,10 @@ export default function Home() {
       {/* Секція пластики грудей */}
       <section className={styles.breastSurgery}>
         <Breast /> {/* Додаємо компонент Breast */}
+      </section>
+
+      <section className={styles.bodySurgery}>
+        <Body />
       </section>
     </div>
   )

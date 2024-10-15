@@ -1,0 +1,28 @@
+.bodyContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.image {
+  flex: 1;
+}
+
+.info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info ul li {
+  margin-bottom: 10px;
+}
+
+.bodyImage {
+  max-width: 100%;
+  height: auto;
+}

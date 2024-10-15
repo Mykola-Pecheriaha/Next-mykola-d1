@@ -19,6 +19,14 @@ export default function Operation() {
             Видалення та заміна грудних імплантів
           </Link>
         </li>
+        <li>
+          <Link href="/operation/abdominoplasty">Абдомінопластика</Link>
+        </li>
+        <li>
+          <Link href="/operation/liposuction">
+            Корекція контурів тіла - ліпоскульптури тіла
+          </Link>
+        </li>
       </ul>
     </div>
   )
