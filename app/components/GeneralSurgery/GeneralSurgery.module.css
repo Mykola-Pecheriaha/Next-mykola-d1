@@ -11,14 +11,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.image {
-  flex: 1;
-  margin-right: 10px;
-}
-
 .info {
   flex: 1;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .info h2 {
@@ -51,6 +46,11 @@
 
 .info ul li a:hover {
   color: #0056b3;
+}
+
+.image {
+  flex: 1;
+  margin-left: 20px;
 }
 
 .bodyImage {

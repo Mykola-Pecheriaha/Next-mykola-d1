@@ -1,0 +1,378 @@
+.breastContainer {
+  padding: 40px 20px;
+  background-color: #f5f2eef8; /* Ніжний фон */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легка тінь */
+}
+
+.breastContainer h1 {
+  margin-bottom: 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  color: #333; /* Темний колір для заголовку */
+}
+
+.augmrntitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Простір між блоками */
+}
+
+.augmrntInfo {
+  flex: 1;
+  padding: 20px;
+  background-color: #b9ebde;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Легка тінь */
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555; /* Нейтральний колір для тексту */
+}
+
+.augmentImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctorImage {
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тінь для зображення */
+  max-width: 100%;
+}
+
+/* Консультації */
+
+.consultationTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  color: #333;
+}
+
+.augmentConsultation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.augmentInfo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.augmentImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.augmentImage {
+  border-radius: 10px;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.augmentList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.augmentList h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.augmentList ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.augmentList li {
+  margin-bottom: 10px;
+}
+
+/* Підготовка до операції */
+
+.preparationTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: #333;
+}
+
+.augmentPreparation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.preparationInfo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.preparationList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.preparationList h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.preparationList ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.preparationList li {
+  margin-bottom: 10px;
+}
+
+.preparationImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.preparationImage img {
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* операція */
+.operationTitle {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin: 60px 0 40px 0; /* Відступ зверху і знизу */
+}
+
+.operationSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* Відстань між зображеннями і текстом */
+  background-color: #f5f5f5; /* Загальний фон секції */
+  padding: 40px; /* Внутрішні відступи для секції */
+  border-radius: 15px; /* Округлені кути для стилізації */
+  margin-bottom: 60px; /* Відступ від секції знизу */
+}
+
+.operationInfo {
+  display: flex;
+  flex: 1;
+  gap: 30px; /* Відстань між колонками */
+}
+
+.operationImages {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Проміжок між зображеннями */
+  flex: 0.5; /* Займає половину ширини секції */
+}
+
+.operationImage {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%; /* Зображення займає всю ширину контейнера */
+  height: auto; /* Автоматичне визначення висоти */
+  transition: transform 0.3s ease-in-out;
+}
+
+.operationImage:hover {
+  transform: scale(1.05); /* Ефект збільшення при наведенні */
+}
+
+.operationMethod {
+  flex: 1;
+  line-height: 1.8;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.operationMethod p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.operationMethod h3 {
+  font-size: 1.5rem;
+  color: #007bff; /* Сині заголовки */
+  margin-bottom: 10px;
+}
+
+.operationMethod h4 {
+  font-size: 1.3rem;
+  color: #555;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .operationSection {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .operationImages {
+    width: 100%;
+  }
+
+  .operationTitle {
+    margin: 40px 0; /* Менший відступ для мобільних пристроїв */
+  }
+}
+
+/* Реабілітація після операції */
+
+.rehabilTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: #333;
+}
+
+.augmentRehabilitation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rehabilInfo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.rehabilList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.rehabilList h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.rehabilList ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.rehabilList li {
+  margin-bottom: 10px;
+}
+
+.rehabilImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.rehabilImage img {
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* результат після операції */
+
+.resultsTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px; /* Відступ перед секцією */
+  margin-top: 60px; /* Відступ після попередньої секції */
+  color: #333; /* Гарний темний колір для заголовка */
+}
+
+.augmentResults {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9; /* Легкий фон для всієї секції */
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.resultsInfo {
+  flex: 1;
+  padding-left: 40px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.resultsImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.resultsImage img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для зображення */
+}

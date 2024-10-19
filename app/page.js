@@ -3,11 +3,12 @@ import Link from 'next/link'
 import styles from './page.module.css' // Використовуємо вже існуючий файл стилів
 import Breast from './components/Breast/Breast'
 import Body from './components/Body/Body'
+import GeneralSurg from './components/GeneralSurgery/GeneralSurgery'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      {/* Секція лікаря */}
+    <div className={styles.breastContainer}>
+      {/* Секція титульна */}
       <section className={styles.doctorProfile}>
         <div className={styles.info}>
           <h2>Лікар</h2>
@@ -43,8 +44,16 @@ export default function Home() {
         <Breast /> {/* Додаємо компонент Breast */}
       </section>
 
+      {/* секція - пластика тіла */}
+
       <section className={styles.bodySurgery}>
         <Body />
+      </section>
+
+      {/* секція - загальна хірургія */}
+
+      <section className={styles.bodySurgery}>
+        <GeneralSurg />
       </section>
     </div>
   )

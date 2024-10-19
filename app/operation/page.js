@@ -27,6 +27,10 @@ export default function Operation() {
             Корекція контурів тіла - ліпоскульптури тіла
           </Link>
         </li>
+
+        <li>
+          <Link href="/operation/herniotomy">Грижесічення</Link>
+        </li>
       </ul>
     </div>
   )

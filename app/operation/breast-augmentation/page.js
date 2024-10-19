@@ -1,7 +1,12 @@
 import React from 'react'
+import Augmentation from '../../components/operations/Augmentation/Augmentation'
 
 const BreastAugmentation = () => {
-  return <div>Збільшення молочних залоз з використанням імплантів</div>
+  return (
+    <div>
+      <Augmentation />
+    </div>
+  )
 }
 
 export default BreastAugmentation
