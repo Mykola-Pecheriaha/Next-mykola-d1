@@ -15,7 +15,7 @@ const Body = () => {
         </p>
         <ul>
           <li>
-            <Link href="/operation/herniotomy">Операції при грижах</Link>
+            <Link href="/operation/abdominoplasty">Абдомінопластика</Link>
           </li>
 
           <li>

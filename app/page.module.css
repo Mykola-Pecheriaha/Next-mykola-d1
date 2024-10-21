@@ -18,7 +18,9 @@
 }
 
 .doctorProfile h1 {
-  color: #0e141a;
+  color: #867e05;
+  font-size: 2.5rem;
+  margin: 10px;
 }
 .image {
   flex: 1; /* Займає 50% ширини секції */
@@ -36,6 +38,25 @@
 .info {
   flex: 1; /* Займає 50% ширини секції */
   padding-left: 20px;
+}
+
+.info h2 {
+  color: #585304;
+  font-size: 2.5rem;
+  margin: 10px;
+}
+
+.info p {
+  color: #036d23;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.info li {
+  color: #0f3119;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .button {

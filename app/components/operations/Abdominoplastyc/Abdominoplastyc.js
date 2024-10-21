@@ -49,6 +49,13 @@ function Abdominoplastyc() {
                 height={700}
                 // className={styles.abdominoImage}
               />
+              <Image
+                src="/consult.jpg" // Шлях до зображення з папки public
+                alt="Doctor"
+                width={700} // Розмір зображення
+                height={700}
+                // className={styles.abdominoImage}
+              />
             </div>
             <div className={styles.abdominoList}>
               <h3>Первинна зустріч</h3>
@@ -304,6 +311,20 @@ function Abdominoplastyc() {
                 height={500}
                 className={styles.rehabilImage}
               />
+              <Image
+                src="/abdomiSur1.jpg" // Шлях до зображення з папки public
+                alt="Doctor"
+                width={500}
+                height={500}
+                className={styles.rehabilImage}
+              />
+              <Image
+                src="/abdomіn33.jpg" // Шлях до зображення з папки public
+                alt="Doctor"
+                width={500}
+                height={500}
+                className={styles.rehabilImage}
+              />
             </div>
           </div>
         </section>
@@ -319,7 +340,15 @@ function Abdominoplastyc() {
               src="/complication.jpg" // Шлях до зображення з папки public
               alt="Doctor"
               width={600}
-              height={600}
+              height={400}
+              // className={styles.resultsImage}
+            />
+
+            <Image
+              src="/complication2.jpg" // Шлях до зображення з папки public
+              alt="Doctor"
+              width={600}
+              height={400}
               // className={styles.resultsImage}
             />
           </div>
@@ -418,7 +447,7 @@ function Abdominoplastyc() {
                 спеціальні вправи.
               </p>
 
-              <h3>Внаслідок проведення абдомінопластики:</h3>
+              <h3>Внаслідок проведення абдомінопластики :</h3>
               <ul>
                 <li>забирається зайвий жир на животі;</li>
                 <li>розгладжуються шкірні складки на животі;</li>
@@ -438,6 +467,13 @@ function Abdominoplastyc() {
             <div className={styles.resultImage}>
               <Image
                 src="/result.jpg" // Шлях до зображення з папки public
+                alt="Doctor"
+                width={500}
+                height={500}
+                className={styles.resultImage}
+              />
+              <Image
+                src="/result22.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}

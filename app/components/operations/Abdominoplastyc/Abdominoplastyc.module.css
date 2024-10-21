@@ -46,6 +46,10 @@
   height: auto;
 }
 
+.abdominoImage:hover {
+  transform: scale(1.05); /* Ефект збільшення при наведенні */
+}
+
 /* Стилізація для заголовка */
 .abdominoplastyc h1 {
   text-align: center; /* Центруємо заголовок */
@@ -84,7 +88,11 @@
 .abdominoImage {
   flex: 1;
   display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
   justify-content: center;
+  gap: 20px; /* Відстань між зображеннями */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .abdominoImage {
@@ -192,8 +200,8 @@
 /* операція */
 .operationTitle {
   text-align: center;
-  font-size: 2rem;
-  color: #333;
+  font-size: 2.5rem;
+  color: #0f0f0f;
   margin: 60px 0 40px 0; /* Відступ зверху і знизу */
 }
 
@@ -205,6 +213,7 @@
   padding: 40px; /* Внутрішні відступи для секції */
   border-radius: 15px; /* Округлені кути для стилізації */
   margin-bottom: 60px; /* Відступ від секції знизу */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .operationInfo {
@@ -335,7 +344,9 @@
 .rehabilImage {
   flex: 1;
   display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
   justify-content: center;
+  gap: 20px; /* Відстань між зображеннями */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -345,6 +356,10 @@
   border-radius: 10px;
   max-width: 100%;
   height: auto;
+}
+
+.rehabilImage:hover {
+  transform: scale(1.05); /* Ефект збільшення при наведенні */
 }
 
 /* результат операції */
@@ -378,14 +393,23 @@
 .resultsImage {
   flex: 1;
   display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
   justify-content: center;
+  gap: 20px; /* Відстань між зображеннями */
   align-items: center;
   padding-right: 40px;
 }
 
 .resultsImage img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для зображення */
+}
+
+.resultsImage:hover {
+  transform: scale(1.05); /* Ефект збільшення при наведенні */
 }
 
 /* результат після операції */
@@ -452,7 +476,9 @@
 .resultImage {
   flex: 1;
   display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
   justify-content: center;
+  gap: 20px; /* Відстань між зображеннями */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -462,4 +488,8 @@
   border-radius: 10px;
   max-width: 100%;
   height: auto;
+}
+
+.resultImage:hover {
+  transform: scale(1.05); /* Ефект збільшення при наведенні */
 }
