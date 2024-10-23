@@ -4,6 +4,7 @@ export default function Operation() {
   return (
     <div>
       <h1>Операції</h1>
+      <h3>Операції на молочні залозі</h3>
       <ul>
         <li>
           <Link href="/operation/breast-augmentation">Збільшення грудей</Link>
@@ -19,6 +20,9 @@ export default function Operation() {
             Видалення та заміна грудних імплантів
           </Link>
         </li>
+      </ul>
+      <h3> Корекція тулуба</h3>
+      <ul>
         <li>
           <Link href="/operation/abdominoplasty">Абдомінопластика</Link>
         </li>
@@ -27,7 +31,11 @@ export default function Operation() {
             Корекція контурів тіла - ліпоскульптури тіла
           </Link>
         </li>
+      </ul>
 
+      <h3> Загальна хірургія</h3>
+
+      <ul>
         <li>
           <Link href="/operation/herniotomy">Грижесічення</Link>
         </li>
