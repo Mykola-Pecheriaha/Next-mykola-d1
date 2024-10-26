@@ -8,7 +8,7 @@
   max-width: 1200px;
   border-radius: 5px;
   background-color: #f9f9f9;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .image {
@@ -18,7 +18,7 @@
 
 .breastImage {
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   max-width: 100%;
   height: auto;
 }
@@ -35,8 +35,8 @@
 }
 
 .info p {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 22px;
+  line-height: 1.4;
   margin-bottom: 20px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .info ul li a {
-  font-size: 18px;
+  font-size: 20px;
   color: #007bff;
   text-decoration: none;
   transition: color 0.3s ease;

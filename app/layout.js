@@ -1,13 +1,15 @@
+// RootLayout.js
 import localFont from 'next/font/local'
 import './globals.css'
 import { Inter } from 'next/font/google'
-
 import Header from './components/Header'
+import ContactsBar from './components/ContactsBar/ContactsBar'
+import Footer from './components/Footer/Footer' // Імпортуйте Footer
 
 const inter = Inter({
-  subsets: ['latin'], // ви можете додати інші subsets, якщо потрібно
-  weight: ['400', '700'], // додайте варіанти товщини, якщо потрібно
-  display: 'swap', // оптимізація відображення шрифту
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  display: 'swap',
 })
 
 const geistSans = localFont({
@@ -29,11 +31,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.className}`}
-      >
-        <Header />
+      <body>
+        <div className="headerContainer">
+          <ContactsBar />
+          <Header />
+        </div>
         <div className="container">{children}</div>
+        <Footer /> {/* Додаємо Footer */}
       </body>
     </html>
   )

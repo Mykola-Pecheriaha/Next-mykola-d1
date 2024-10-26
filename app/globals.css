@@ -1,25 +1,23 @@
 * {
   margin: 0;
   padding: 0;
-}
-body {
-  background: #e1e2b6;
-  color: #058919;
+  box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #d8a929;
-  border-bottom: 2px solid #2c2c2c;
-  padding: 20px 50px;
+body {
+  background: #e1e2b6;
+  color: #024b0d;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: #0c23f2;
   margin-left: 20px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  margin-right: 20px;
+  padding-right: 20px;
 }
 
 a:hover {
@@ -28,4 +26,24 @@ a:hover {
 
 .container {
   padding: 20px;
+  width: 100%;
+  max-width: 1200px; /* Узгоджена ширина з хедером */
+  margin: 0 auto;
+  min-height: calc(
+    100vh - 200px
+  ); /* Регулює висоту з урахуванням хедера, контактної стрічки та футера */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerContainer {
+  max-width: 1200px; /* Максимальна ширина для центрування */
+  margin: 0 auto;
+  width: 100%;
+  position: sticky; /* Фіксує елемент на екрані при прокручуванні */
+  top: 0;
+  z-index: 1000; /* Встановлює пріоритет, щоб було поверх інших елементів */
+  background-color: #ffffff; /* Задає фон для уникнення прозорості */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Опційно: додає тінь */
 }

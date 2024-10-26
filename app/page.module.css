@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  padding-top: 60px;
+  margin-top: 60px;
 }
 
 .doctorProfile {
@@ -14,11 +16,12 @@
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  margin: 0 auto; /* Горизонтальне центрування */
 }
 
 .doctorProfile h1 {
-  color: #867e05;
+  color: #e64d06;
   font-size: 2.5rem;
   margin: 10px;
 }
@@ -41,13 +44,13 @@
 }
 
 .info h2 {
-  color: #585304;
+  color: rgb(194, 181, 4);
   font-size: 2.5rem;
   margin: 10px;
 }
 
 .info p {
-  color: #036d23;
+  color: #01240b;
   font-size: 2rem;
   font-weight: 700;
   margin: 10px;
@@ -55,7 +58,7 @@
 
 .info li {
   color: #0f3119;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
 }
 

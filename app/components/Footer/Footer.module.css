@@ -1,0 +1,24 @@
+.footer {
+  width: 100%; /* Займає всю ширину */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #d8a92967; /* Колір фону */
+  color: #2c2c2c; /* Колір тексту */
+  border-top: 2px solid #2c2c2c; /* Лінія зверху */
+}
+
+.footer nav {
+  display: flex; /* Розміщує посилання в ряд */
+  gap: 20px; /* Відстань між посиланнями */
+}
+
+.footer nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer nav a:hover {
+  text-decoration: underline;
+}

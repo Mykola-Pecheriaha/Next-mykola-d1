@@ -1,10 +1,65 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a8872a9c;
+  padding: 20px;
+  border-bottom: 2px solid #2c2c2c;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .logo {
   display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 1.5rem;
 }
 
 .logoImage {
   margin-right: 10px;
+}
+
+/* Навігація для великих екранів */
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+/* Бургер-кнопка для малих екранів */
+.burgerButton {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+@media (max-width: 968px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #d8a929;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Показує меню при відкритті */
+  .nav.show {
+    display: flex;
+  }
+
+  .burgerButton {
+    display: block;
+  }
 }

@@ -21,7 +21,7 @@ export default function Home() {
           <ul>
             <li>​​Хірург вищої категорії</li>
             <li>​​29 років досвіду</li>
-            <li>​​Більше 1000 проведених операцій</li>
+            <li>​​Більше 1200 проведених операцій</li>
             <li>​Член ВАПРЕХ і ОПРЕХ</li>​
           </ul>
           <Link href="/portfolio" className={styles.button}>

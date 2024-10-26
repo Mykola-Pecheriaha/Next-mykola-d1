@@ -1,0 +1,67 @@
+/* Контейнер для контактів */
+/* .contactsContainer {
+  position: relative;
+} */
+
+/* Бургер-кнопка праворуч */
+.burgerButton {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  max-width: 1200px;
+  top: 10px;
+  right: 20px; /* Розміщення кнопки бургер-меню справа */
+  z-index: 1100;
+  color: #333;
+}
+
+/* Контактна стрічка */
+.contactsBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-size: 0.6rem;
+  transition: transform 0.3s ease;
+}
+
+.contactsBar p,
+.contactsBar a {
+  margin: 0 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.contactsBar a:hover {
+  text-decoration: underline;
+}
+
+/* Відображення на малих екранах */
+@media (max-width: 968px) {
+  .contactsBar {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 1ch; /* Ширина меню */
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Показує контакти при відкритому меню */
+  .contactsBar.show {
+    display: flex;
+  }
+
+  /* Бургер-кнопка для малих екранів */
+  .burgerButton {
+    display: block;
+  }
+}
