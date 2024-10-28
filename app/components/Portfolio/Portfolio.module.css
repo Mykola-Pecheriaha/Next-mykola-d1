@@ -1,0 +1,140 @@
+.portfolioContainer {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolioTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolioText {
+  max-width: 70%;
+}
+
+.portfolioName {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.portfolioBirth,
+.portfolioAddress,
+.portfolioMobile,
+.portfolioEmail,
+.citizenship,
+.desiredPosition {
+  font-size: 1em;
+  color: #131212;
+  margin-bottom: 5px;
+}
+
+.portfolioImage img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #1d1c1c;
+}
+
+.portfolioSection h3 {
+  font-size: 1.4em;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.portfolioSection h3:hover {
+  background-color: #ccc;
+}
+
+.portfolioSection h3 span {
+  font-size: 0.8em;
+}
+
+.portfolioSection ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #555;
+  line-height: 1.6;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+}
+
+.portfolioSection ul li {
+  padding: 5px 0;
+}
+
+.children h4 {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Відстань між секціями */
+}
+
+.skillsContainer h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f7f7f7; /* Змінити фон */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Анімація кольору */
+}
+
+.skillsContainer h3:hover {
+  background-color: #e0e0e0; /* Колір при наведенні */
+}
+
+.skillsContainer ul {
+  padding-left: 20px;
+  margin: 10px 0;
+  display: none; /* Спочатку прихований */
+}
+
+.skillsContainer ul.open {
+  display: block; /* Відображення при відкритті */
+}
+
+.skillsContainer h4 {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.skillsContainer h4:hover {
+  background-color: #ddd;
+}
+
+.skillsContainer li {
+  margin-left: 15px;
+  padding: 4px 0;
+}
