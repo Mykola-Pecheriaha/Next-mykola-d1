@@ -22,7 +22,7 @@ export default function ContactsBar() {
       {/* Контактна стрічка */}
       <div className={`${styles.contactsBar} ${isMenuOpen ? styles.show : ''}`}>
         <p>
-          Телефон: <a href="tel:+38(050) 75 75 411">+38(050) 75 75 411</a>
+          Телефон: <a href="tel:+38(050) 7575411">+38(050) 75 75 411</a>
         </p>
         <p>
           Email: <a href="mailto:Pecheryag@gmail.com">Pecheryag@gmail.com</a>

@@ -1,24 +1,45 @@
 .footer {
-  width: 100%; /* Займає всю ширину */
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px;
-  background-color: #d8a92967; /* Колір фону */
-  color: #2c2c2c; /* Колір тексту */
-  border-top: 2px solid #2c2c2c; /* Лінія зверху */
+  background-color: #665405;
+  color: #fff;
+  flex-wrap: wrap;
 }
 
-.footer nav {
-  display: flex; /* Розміщує посилання в ряд */
-  gap: 20px; /* Відстань між посиланнями */
+.column {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px; /* Забезпечує зручний вигляд на вузьких екранах */
 }
 
-.footer nav a {
-  color: inherit;
+.nav a,
+.socials a {
+  display: block;
+  color: #fff;
   text-decoration: none;
+  margin-bottom: 8px;
 }
 
-.footer nav a:hover {
+.nav a:hover,
+.socials a:hover {
   text-decoration: underline;
+}
+
+.contactInfo p {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.socials a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.copyright {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #bbb;
 }
