@@ -3,7 +3,7 @@
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #f9f9f9;
+  background-color: #e5f0a8bd;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -19,12 +19,14 @@
 
 .portfolioText {
   max-width: 70%;
+  background-color: #f7eaa1bd;
+  border-bottom: 2px solid #9ca519;
 }
 
 .portfolioName {
   font-size: 1.8em;
   font-weight: bold;
-  color: #333;
+  color: #450ae6;
   margin-bottom: 5px;
 }
 
@@ -34,7 +36,7 @@
 .portfolioEmail,
 .citizenship,
 .desiredPosition {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #131212;
   margin-bottom: 5px;
 }
@@ -46,6 +48,13 @@
   border: 2px solid #1d1c1c;
 }
 
+.portfolioContainer h2 {
+  text-align: center; /* Центрування тексту по горизонталі */
+  margin-top: 20px; /* Відступ зверху */
+  margin-bottom: 20px; /* Відступ знизу */
+  font-size: 24px; /* Змінити розмір шрифту, якщо потрібно */
+}
+
 .portfolioSection h3 {
   font-size: 1.4em;
   color: #333;
@@ -53,15 +62,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e0e0e0;
+  background-color: #b2d3f1;
   padding: 10px;
   border-radius: 5px;
   margin-top: 10px;
   transition: background-color 0.3s;
+  border-bottom: 2px solid #0b52d4;
 }
 
 .portfolioSection h3:hover {
-  background-color: #ccc;
+  background-color: #0faae7;
 }
 
 .portfolioSection h3 span {
@@ -100,14 +110,14 @@
   align-items: center;
   cursor: pointer;
   padding: 10px;
-  background-color: #f7f7f7; /* Змінити фон */
-  border: 1px solid #ddd;
+  background-color: #a9f3ef8f; /* Змінити фон */
+  border: 1px solid #4cbfecfb;
   border-radius: 5px;
   transition: background-color 0.3s ease; /* Анімація кольору */
 }
 
 .skillsContainer h3:hover {
-  background-color: #e0e0e0; /* Колір при наведенні */
+  background-color: #23c8e6de; /* Колір при наведенні */
 }
 
 .skillsContainer ul {
@@ -126,12 +136,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 8px;
-  background-color: #f1f1f1;
+  background-color: #c0f052;
+  border: 1px solid #4cbfecfb;
   border-radius: 4px;
 }
 
 .skillsContainer h4:hover {
-  background-color: #ddd;
+  background-color: #76e61a;
 }
 
 .skillsContainer li {

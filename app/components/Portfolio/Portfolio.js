@@ -6,6 +6,7 @@ export default function Portfolio() {
   const [isEducationOpen, setIsEducationOpen] = useState(false)
   const [isCertificatesOpen, setIsCertificatesOpen] = useState(false)
   const [isPositionsOpen, setisPositionsOpen] = useState(false)
+  const [isQualificationsOpen, setIsQualificationsOpen] = useState(false)
   const [openProfSkills, setOpenProfSkills] = useState(null)
   const [openSubProfSkills, setOpenSubProfSkills] = useState(null)
 
@@ -17,6 +18,8 @@ export default function Portfolio() {
       setIsCertificatesOpen(!isCertificatesOpen)
     } else if (section === 'positions') {
       setisPositionsOpen(!isPositionsOpen)
+    } else if (section === 'qualifications') {
+      setIsQualificationsOpen(!isQualificationsOpen)
     } else {
       // Відкриття розділів професійних навичок
       setOpenProfSkills(openProfSkills === section ? null : section)
@@ -49,7 +52,7 @@ export default function Portfolio() {
             <p>Молодший син - Артем</p>
           </div>
           <div className={styles.desiredPosition}>
-            Бажана посада: Лікар-хірург
+            Займана посада: Лікар-хірург
           </div>
         </div>
         <div className={styles.portfolioImage}>
@@ -264,7 +267,7 @@ export default function Portfolio() {
           <ul className={openProfSkills === 'gallbladder' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('gallbladderDetails')}>
-                Операції на жовчеві системі
+                Види операцій на жовчеві системі
                 {openSubProfSkills === 'gallbladderDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'gallbladderDetails' && (
@@ -287,14 +290,14 @@ export default function Portfolio() {
         )}
 
         <h3 onClick={() => toggleSection('abdominal')}>
-          Інші операції на органах черевної порожнини{' '}
+          Операції на органах черевної порожнини.
           {openProfSkills === 'abdominal' ? '▲' : '▼'}
         </h3>
         {openProfSkills === 'abdominal' && (
           <ul className={openProfSkills === 'abdominal' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('abdominalDetails')}>
-                Інші операції на органах черевної порожнини
+                Види операцій на органах черевної порожнини.
                 {openSubProfSkills === 'abdominalDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'abdominalDetails' && (
@@ -322,14 +325,14 @@ export default function Portfolio() {
         )}
 
         <h3 onClick={() => toggleSection('laparoscopi')}>
-          Лапараскопічна хірургія Операції на жовчеві системі{' '}
+          Малоінвазивна хірургія
           {openProfSkills === 'laparoscopi' ? '▲' : '▼'}
         </h3>
         {openProfSkills === 'laparoscopi' && (
           <ul className={openProfSkills === 'laparoscopi' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('laparoscopiDetails')}>
-                Лапараскопічна хірургія Операції на жовчеві сlaparoscopi
+                Види лапараскопічних операцій
                 {openSubProfSkills === 'laparoscopiDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'laparoscopiDetails' && (
@@ -366,7 +369,7 @@ export default function Portfolio() {
           <ul className={openProfSkills === 'vein' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('veinDetails')}>
-                Операції на венах
+                Види операцій на венах
                 {openSubProfSkills === 'veinDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'veinDetails' && (
@@ -392,7 +395,7 @@ export default function Portfolio() {
           <ul className={openProfSkills === 'genital' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('genitalDetails')}>
-                Oперація на статевих органах
+                Види операцій на статевих органах
                 {openSubProfSkills === 'genitalDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'genitalDetails' && (
@@ -416,7 +419,7 @@ export default function Portfolio() {
           <ul className={openProfSkills === 'face' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('faceDetails')}>
-                Омоложуючі операції на обличчі
+                Види операції на обличчі
                 {openSubProfSkills === 'faceDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'faceDetails' && (
@@ -447,7 +450,7 @@ export default function Portfolio() {
           <ul className={openProfSkills === 'mammary' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('mammaryDetails')}>
-                Операції на молочних залозах
+                Види операцій на молочних залозах
                 {openSubProfSkills === 'mammaryDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'mammaryDetails' && (
@@ -476,7 +479,7 @@ export default function Portfolio() {
           <ul className={openProfSkills === 'abdominals' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('abdominalsDetails')}>
-                Операції на передній черевній стінці
+                Види операцій для омоложення торса
                 {openSubProfSkills === 'abdominalsDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'abdominalsDetails' && (
@@ -505,7 +508,7 @@ export default function Portfolio() {
           <ul className={openProfSkills === 'intimate' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('intimateDetails')}>
-                Інтимна хірургія
+                Види естетичних операцій на інтимні ділянці
                 {openSubProfSkills === 'intimateDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'intimateDetails' && (
@@ -529,7 +532,7 @@ export default function Portfolio() {
           <ul className={openProfSkills === 'purulent' ? styles.open : ''}>
             <li>
               <h4 onClick={() => toggleSubSection('purulentDetails')}>
-                Гнійна хірургія
+                Види операцій при гнійносептичних захворювань
                 {openSubProfSkills === 'purulentDetails' ? '▲' : '▼'}
               </h4>
               {openSubProfSkills === 'purulentDetails' && (
@@ -547,6 +550,98 @@ export default function Portfolio() {
                   <li>-Лікування "Діабетичної ступні"</li>
                 </ul>
               )}
+            </li>
+          </ul>
+        )}
+      </div>
+
+      <div className={styles.portfolioSection}>
+        <h3 onClick={() => toggleSection('qualifications')}>
+          Навчання з підвищенням кваліфікації
+          <span>{isQualificationsOpen ? '▲' : '▼'}</span>
+        </h3>
+        {isQualificationsOpen && (
+          <ul>
+            <li>
+              - 1995р.-1997р. – первинна спеціалізація по хірургії, Буковинська
+              державна медична академія.
+            </li>
+            <li>
+              - 1997-1999р. – Клінічна ординатура по хірургії, Буковинська
+              державна медична академія.
+            </li>
+            <li>
+              - 2001р – інтенсивний курс по пластичні і реконструктивні
+              хірургії. Росія. Ярославль
+            </li>
+            <li>
+              - 2001р. - Інтенсивний курс по пластичні, естетичні та
+              реконструктивні хірургії. Росія . Москва.
+            </li>
+            <li>
+              - 2001р. - тематичний курс удосконалення по ендоскопічні хірургії
+            </li>
+            <li>
+              - 2002р. – тематичне удосконалення по пластичні, естетичні, та
+              реконструктивні хірургії, Росія Ярославль.
+            </li>
+            <li>
+              - 2003р. - Лапараскопічна хірургія .Тематичне удосконалення. Одеса
+            </li>
+            <li>
+              - 2004р. - Тематичне удосконалення по пластичні хірургії Росія,
+              Іваново
+            </li>
+            <li>
+              - 2004р. - Міжнародний інтенсивний курс по пластичні і
+              реконструктивні хірургії. Росія Єкатеринбург
+            </li>
+            <li>
+              - 2006р. - Міжнародний дев’ятий інтенсивний курс по пластичній та
+              реконструктивній хірургії. Росія Москва.
+            </li>
+            <li>
+              - 2008р. - спеціалізації по онкології при Національній медичні
+              академії після діпломної освіти ім. П.Л. Шупика.( Київ)
+            </li>
+            <li>
+              - 2008р. - Передатестаційний цикл за фахом «Хірургія» при
+              Буковинському державному медичному університеті м.Чернівці.
+            </li>
+            <li>
+              - 2010р. - Цикл тематичного удосконалення «Актуальні питання
+              малоінвазивної хірургії». Чернівці
+            </li>
+            <li>
+              - 2011р. - Цикл тематичного удосконалення « Пластична та
+              реконструктивна хірургія». Київ.
+            </li>
+            <li>
+              - 2013р. - Цикл тематичного удосконалення « Непухлинні
+              захворювання прямої кишки» Чернівці.
+            </li>
+            <li>
+              - 2017р. - Навчання на циклі тематичного удосконалення «Актуальні
+              питання гемотрансфузійної терапії в практиці хірурга» - – ВДНЗУ
+              БДМУ,
+            </li>
+            <li>
+              - 2017р. - Навчання на циклі тематичного удосконалення «Актуальні
+              питання опікової та холодової травми » – ВДНЗУ БДМУ, 2017р.
+            </li>
+            <li>
+              - 2018р. - Навчання на циклі тематичного удосконалення
+              «Невідкладна та малоінвазивна проктологія» - 2 тижні – ВДНЗУ БДМУ,
+              2018р.
+            </li>
+            <li>
+              - 2019р. - Передатестаційний цикл за фахом «Хірургія», ВДНЗУ БДМУ,
+              2019р
+            </li>
+            <li>
+              - 2020р. - Навчання на циклі тематичного удосконалення «Нове в
+              методиці лікування септичних станів» - 2 тижні – ВДНЗУ БДМУ,
+              2020р.
             </li>
           </ul>
         )}
