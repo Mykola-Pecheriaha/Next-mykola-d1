@@ -98,3 +98,10 @@
 .breastSurgery {
   margin-top: 50px;
 }
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .doctorProfile {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}

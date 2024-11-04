@@ -59,3 +59,10 @@
 .info ul li a:hover {
   color: #0056b3;
 }
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .breastContainer {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}

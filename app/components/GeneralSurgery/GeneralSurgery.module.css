@@ -59,3 +59,10 @@
   max-width: 100%;
   height: auto;
 }
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .bodyContainer {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
