@@ -40,6 +40,12 @@ export default function Operation() {
           <Link href="/operation/herniotomy">Грижесічення</Link>
         </li>
       </ul>
+
+      <ul>
+        <li>
+          <Link href="/operation/carpalis-syndrom">Карпальний синдром</Link>
+        </li>
+      </ul>
     </div>
   )
 }

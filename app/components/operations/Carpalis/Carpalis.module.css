@@ -1,0 +1,700 @@
+/* Стилі для головного контейнера */
+.carpalis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.carpalInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 20px; /* Встановлення рівномірного відступу */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* Максимальна ширина секції */
+  margin: 0 auto; /* Центрування секції */
+}
+.carpalis h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+.carpalInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+/* Стилі для тексту */
+.carpalList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #444;
+  text-align: left;
+  max-width: 550px; /* Вирівнювання ширини текстового блоку */
+}
+.carpalList b u {
+  color: #9b7f04;
+  /* background-color: aqua; */
+  font-size: 1.3em;
+}
+.carpalList em {
+  color: rgb(2, 111, 155);
+}
+.indentedText {
+  text-indent: 2em;
+}
+/* Стилі для зображення */
+.carpalImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 550px; /* Вирівнювання ширини блоку зображення */
+}
+.carpalImage img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .carpalInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+/* Розвиток тунельного синдромуї */
+.developTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+/* Блок текстової інформації */
+.developInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 20px; /* Встановлення рівномірного відступу */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* Максимальна ширина секції */
+  margin: 0 auto; /* Центрування секції */
+}
+/* Список та текстова інформація */
+.developList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #444;
+  text-align: left;
+  max-width: 550px; /* Вирівнювання ширини текстового блоку */
+}
+.developList h3,
+.developList h4,
+.developList h5 {
+  font-size: 1.5rem;
+  color: #2d2d2d;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.developList p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  color: #555;
+}
+.developList ul {
+  list-style-type: disc;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+.developList li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+/* Блок зображення */
+.developImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px; /* Відстань між зображеннями */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+}
+.developImage img {
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px; /* Додатковий проміжок між зображеннями */
+}
+.developImage:hover img {
+  transform: scale(1.05); /* Збільшення зображення при наведенні */
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .developInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+/* Обстеження хворого */
+/* Заголовок розділу */
+.examineTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+/* Блок текстової інформації */
+.examineInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 20px; /* Встановлення рівномірного відступу */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* Максимальна ширина секції */
+  margin: 0 auto; /* Центрування секції */
+}
+/* Список та текстова інформація */
+.examineList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #444;
+  text-align: left;
+  max-width: 550px; /* Вирівнювання ширини текстового блоку */
+}
+.examineList h3,
+.examineList h4,
+.examineList h5 {
+  font-size: 1.5rem;
+  color: #2d2d2d;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.examineList p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+.examineList ul {
+  list-style-type: disc;
+  padding-left: 30px;
+  margin-bottom: 25px;
+}
+.examineList li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+/* Блок зображення */
+.examineImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 550px; /* Вирівнювання ширини блоку зображення */
+  gap: 20px;
+}
+.examineImage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.examineImage img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Додатковий проміжок між зображеннями */
+}
+.examineImage:hover img {
+  transform: scale(1.05); /* Збільшення зображення при наведенні */
+}
+/* Загальні стилі для тексту списків */
+.examineList h3,
+.examineList h4,
+.examineList h5 {
+  padding-top: 10px;
+  border-left: 5px solid #3a7bd5;
+  padding-left: 10px;
+  color: #333;
+}
+.examineList li {
+  margin-bottom: 12px;
+  color: #666;
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .examineInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+/* Консервативне лікування. */
+/* Заголовок розділу */
+.conservTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+/* Блок текстової інформації */
+.conservInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 20px; /* Встановлення рівномірного відступу */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* Максимальна ширина секції */
+  margin: 0 auto; /* Центрування секції */
+}
+/* Список та текстова інформація */
+.conservList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #444;
+  text-align: left;
+  max-width: 550px; /* Вирівнювання ширини текстового блоку */
+}
+.conservList h3,
+.conservList h4,
+.conservList h5 {
+  font-size: 1.5rem;
+  color: #2d2d2d;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.conservList p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  color: #555;
+}
+.conservList ul {
+  list-style-type: disc;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+.conservList li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+/* Блок зображення */
+.conservImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px; /* Відстань між зображеннями */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+}
+.conservImage img {
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px; /* Додатковий проміжок між зображеннями */
+}
+.conservImage:hover img {
+  transform: scale(1.05); /* Збільшення зображення при наведенні */
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .conservInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+/* Підготовка до операції */
+.preparationTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.tunnelInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 20px; /* Встановлення рівномірного відступу */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* Максимальна ширина секції */
+  margin: 0 auto; /* Центрування секції */
+}
+.tunnelImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Відстань між зображеннями */
+  max-width: 500px;
+  /* overflow: hidden; */
+}
+.tunnelImage {
+  border-radius: 10px;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.sectionImage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Додатковий проміжок між зображеннями */
+  transition: transform 0.3s ease;
+}
+.tunnelList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  text-align: left;
+  /* max-width: 500px; */
+  max-width: auto;
+}
+.tunnelList h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+.developList h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+.tunnelList ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.tunnelList li {
+  margin-bottom: 10px;
+}
+.tunnelList p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  color: #555;
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .tunnelInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+/* Підготовка до операції */
+.preparationTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  color: #333;
+}
+.tunnelInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 20px; /* Встановлення рівномірного відступу */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* Максимальна ширина секції */
+  margin: 0 auto; /* Центрування секції */
+}
+.tunnelImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Відстань між зображеннями */
+  border-radius: 10px;
+  max-width: 550px; /* Вирівнювання ширини блоку зображення */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.tunnelImage {
+  border-radius: 10px;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.sectionImage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.tunnelList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  text-align: left;
+}
+.tunnelList h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+.developList h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+.tunnelList ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.tunnelList li {
+  margin-bottom: 10px;
+}
+.tunnelList p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .tunnelInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+/* Операція */
+.operationTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+/* Блок текстової інформації */
+.tunnelOperation {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 20px; /* Встановлення рівномірного відступу */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* Максимальна ширина секції */
+  margin: 0 auto; /* Центрування секції */
+}
+/* Список та текстова інформація */
+.tunnelList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #444;
+  text-align: left;
+  max-width: 550px; /* Вирівнювання ширини текстового блоку */
+}
+.tunnelList h3,
+.tunnelList h4,
+.tunnelList h5 {
+  font-size: 1.5rem;
+  color: #2d2d2d;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.tunnelList p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  color: #555;
+}
+.tunnelList ul {
+  list-style-type: disc;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+.tunnelList li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+/* Блок зображення */
+.tunnelImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px; /* Відстань між зображеннями */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+}
+.tunnelImage img {
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px; /* Додатковий проміжок між зображеннями */
+}
+.tunnelImage:hover img {
+  transform: scale(1.05); /* Збільшення зображення при наведенні */
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .tunnelInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+/* ребілітація */
+.reabilitatioTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+/* Блок текстової інформації */
+.tunnelInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 20px; /* Встановлення рівномірного відступу */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* Максимальна ширина секції */
+  margin: 0 auto; /* Центрування секції */
+}
+/* Список та текстова інформація */
+.tunnelList {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #444;
+  text-align: left;
+  max-width: 550px; /* Вирівнювання ширини текстового блоку */
+}
+.tunnelList h3,
+.tunnelList h4,
+.tunnelList h5 {
+  font-size: 1.5rem;
+  color: #2d2d2d;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.tunnelList p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  color: #555;
+}
+.tunnelList ul {
+  list-style-type: disc;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+.tunnelList li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+/* Блок зображення */
+.tunnelImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Вертикальне вирівнювання */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px; /* Відстань між зображеннями */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+}
+.tunnelImage img {
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px; /* Додатковий проміжок між зображеннями */
+}
+.tunnelImage:hover img {
+  transform: scale(1.05); /* Збільшення зображення при наведенні */
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .tunnelInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
