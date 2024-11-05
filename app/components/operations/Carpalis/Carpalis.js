@@ -53,7 +53,7 @@ const Carpalis = () => {
                 // className={styles.abdominoImage}
               />
               <Image
-                src="/carp1.jpg" // Шлях до зображення з папки public
+                src="/carp39.jpg" // Шлях до зображення з папки public
                 alt="Karp"
                 width={500}
                 height={500}
@@ -70,21 +70,21 @@ const Carpalis = () => {
           <div className={styles.developInfo}>
             <div className={styles.developImage}>
               <img
-                src="/carp12.jpg" // Шлях до зображення з папки public
+                src="/carp56.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
                 // className={styles.abdominoImage}
               />
               <img
-                src="/carp29.jpg" // Шлях до зображення з папки public
+                src="/carp4.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
                 // className={styles.abdominoImage}
               />
               <img
-                src="/carp3.jpg" // Шлях до зображення з папки public
+                src="/carp28.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
@@ -270,42 +270,42 @@ const Carpalis = () => {
             </div>
             <div className={styles.examineImage}>
               <img
-                src="/carp31.jpg" // Шлях до зображення з папки public
+                src="/carp44.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
                 // className={styles.abdominoImage}
               />
               <img
-                src="/carp33.jpg" // Шлях до зображення з папки public
+                src="/carp46.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
                 // className={styles.abdominoImage}
               />
               <img
-                src="/carp37.jpg" // Шлях до зображення з папки public
+                src="/carp47.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
                 // className={styles.abdominoImage}
               />
               <img
-                src="/carp38.jpg" // Шлях до зображення з папки public
+                src="/carp43.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
                 // className={styles.abdominoImage}
               />
               <img
-                src="/carp34.jpg" // Шлях до зображення з папки public
+                src="/carp48.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
                 // className={styles.abdominoImage}
               />
               <img
-                src="/carp36.jpg" // Шлях до зображення з папки public
+                src="/carp45.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
@@ -322,14 +322,21 @@ const Carpalis = () => {
           <div className={styles.conservInfo}>
             <div className={styles.conservImage}>
               <img
-                src="/carp5.jpg" // Шлях до зображення з папки public
+                src="/carp15.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={700} // Розмір зображення
                 height={700}
                 // className={styles.abdominoImage}
               />
               <img
-                src="/carp11.jpg" // Шлях до зображення з папки public
+                src="/carp18.jpg" // Шлях до зображення з папки public
+                alt="Doctor"
+                width={700} // Розмір зображення
+                height={700}
+                // className={styles.conservImage}
+              />
+              <img
+                src="/carp58.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={700} // Розмір зображення
                 height={700}
@@ -413,7 +420,7 @@ const Carpalis = () => {
             </div>
             <div className={styles.tunnelImage}>
               <img
-                src="/lab.jpg" // Шлях до зображення з папки public
+                src="/lab.png" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
@@ -428,28 +435,28 @@ const Carpalis = () => {
           <div className={styles.tunnelInfo}>
             <div className={styles.tunnelImage}>
               <img
-                src="/carp17.jpg" // Шлях до зображення з папки public
+                src="/carp52.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={400}
                 height={400}
                 // className={styles.tunnelImage}
               />
               <img
-                src="/carp15.jpg" // Шлях до зображення з папки public
+                src="/carp16.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={400}
                 height={400}
                 // className={styles.tunnelImage}
               />{' '}
               <img
-                src="/carp9.jpg" // Шлях до зображення з папки public
+                src="/carp10.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={400}
                 height={400}
                 // className={styles.tunnelImage}
               />
               <img
-                src="/carp8.jpg" // Шлях до зображення з папки public
+                src="/carp23.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={400}
                 height={400}
@@ -529,21 +536,21 @@ const Carpalis = () => {
             </div>
             <div className={styles.tunnelImage}>
               <img
-                src="/carp35.jpg" // Шлях до зображення з папки public
+                src="/carp41.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
                 // className={styles.tunnelImage}
               />
               <img
-                src="/carp39.jpg" // Шлях до зображення з папки public
+                src="/carp57.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
                 // className={styles.tunnelImage}
               />{' '}
               <img
-                src="/carp40.jpg" // Шлях до зображення з папки public
+                src="/carp58.jpg" // Шлях до зображення з папки public
                 alt="Doctor"
                 width={500}
                 height={500}
