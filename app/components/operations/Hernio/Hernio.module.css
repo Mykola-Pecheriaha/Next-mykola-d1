@@ -57,6 +57,12 @@
   font-size: 2em;
   margin-bottom: 20px;
 }
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .herniolInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
 
 /* Консультації */
 /* Підготовка до операції */
@@ -130,6 +136,13 @@
   margin-bottom: 10px;
 }
 
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .hernioInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
 /* Підготовка до операції */
 
 .preparationTitle {
@@ -150,6 +163,14 @@
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .hernioInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
 /* операція */
 .operationTitle {
   text-align: center;
@@ -219,7 +240,7 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .operationSection {
     flex-direction: column;
     padding: 20px;
@@ -230,7 +251,14 @@
   }
 
   .operationTitle {
-    margin: 40px 0; /* Менший відступ для мобільних пристроїв */
+    margin: 40px 0; 
+  }
+} */
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .operationInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
   }
 }
 
@@ -316,6 +344,14 @@
 .rehabilImage:hover {
   transform: scale(1.05); /* Ефект збільшення при наведенні */
 }
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .rehabilInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
 /* Імпланти */
 
 .implantsTitle {
@@ -379,4 +415,11 @@
 .implantsInfo p {
   font-size: 1.4rem;
   line-height: 1.6;
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .implantsSection {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
 }
