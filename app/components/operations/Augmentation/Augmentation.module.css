@@ -50,6 +50,13 @@
   max-width: 100%;
 }
 
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .augmrntitle {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
 /* Консультації */
 
 .consultationTitle {
@@ -115,6 +122,13 @@
 
 .augmentList li {
   margin-bottom: 10px;
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .augmentInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
 }
 
 /* Підготовка до операції */
@@ -185,6 +199,13 @@
   height: auto;
 }
 
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .preparationInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
 /* операція */
 .operationTitle {
   text-align: center;
@@ -253,7 +274,7 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .operationSection {
     flex-direction: column;
     padding: 20px;
@@ -264,7 +285,14 @@
   }
 
   .operationTitle {
-    margin: 40px 0; /* Менший відступ для мобільних пристроїв */
+    margin: 40px 0; 
+  }
+} */
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .operationInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
   }
 }
 
@@ -336,6 +364,13 @@
   height: auto;
 }
 
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .rehabilInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
 /* результат після операції */
 
 .resultsTitle {
@@ -375,6 +410,13 @@
 .resultsImage img {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для зображення */
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .augmentResults {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
 }
 
 /* Імпланти */
@@ -422,4 +464,11 @@
 .implantsImage img {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для зображення */
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .augmentImplants {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
 }
