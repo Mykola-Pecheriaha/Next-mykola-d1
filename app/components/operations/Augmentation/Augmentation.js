@@ -292,7 +292,7 @@ function Augmentation() {
       </section>
 
       {/* Результат операції */}
-      <h2 className={styles.implantsTitle}>Результати операції</h2>
+      <h2 className={styles.implantsTitle}>Імпланти</h2>
       <section className={styles.augmentImplants}>
         <div className={styles.implantsInfo}>
           <h3>Ми використовуємо імпланти</h3>

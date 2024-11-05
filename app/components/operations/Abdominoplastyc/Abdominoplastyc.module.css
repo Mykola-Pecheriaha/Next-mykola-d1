@@ -58,6 +58,13 @@
   margin-bottom: 20px;
 }
 
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .abdominolInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
 /* Консультації */
 /* Підготовка до операції */
 
@@ -130,6 +137,13 @@
   margin-bottom: 10px;
 }
 
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .abdominoInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
 /* Підготовка до операції */
 
 .preparationTitle {
@@ -149,6 +163,12 @@
   background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .abdominoInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
 }
 
 /* .preparationInfo {
@@ -267,7 +287,7 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .operationSection {
     flex-direction: column;
     padding: 20px;
@@ -278,9 +298,17 @@
   }
 
   .operationTitle {
-    margin: 40px 0; /* Менший відступ для мобільних пристроїв */
+    margin: 40px 0; 
+  }
+} */
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .operationInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
   }
 }
+
 /* Реабілітація після операції */
 
 .rehabilTitle {
@@ -363,6 +391,13 @@
   transform: scale(1.05); /* Ефект збільшення при наведенні */
 }
 
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .rehabilInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
 /* результат операції */
 
 .resultsTitle {
@@ -411,6 +446,12 @@
 
 .resultsImage:hover {
   transform: scale(1.05); /* Ефект збільшення при наведенні */
+}
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .abdominoResults {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
 }
 
 /* результат після операції */
@@ -493,4 +534,11 @@
 
 .resultImage:hover {
   transform: scale(1.05); /* Ефект збільшення при наведенні */
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .resultInfo {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
 }
