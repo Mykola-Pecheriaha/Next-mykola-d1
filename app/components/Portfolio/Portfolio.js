@@ -56,7 +56,13 @@ export default function Portfolio() {
           </div>
         </div>
         <div className={styles.portfolioImage}>
-          <img src="/" alt="Doctor's Portrait" />
+          <img
+            src="/Mykola.jpg" // Шлях до зображення з папки public
+            alt="Doctor"
+            width={600}
+            height={600}
+            // className={styles.tunnelImage}
+          />
         </div>
       </div>
 
