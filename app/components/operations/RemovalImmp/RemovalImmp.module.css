@@ -1,0 +1,128 @@
+.removalImmp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.removalTitle {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+/* Загальний стиль для секцій з текстом і зображенням */
+.removalInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 20px; /* Встановлення рівномірного відступу */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* Максимальна ширина секції */
+  margin: 0 auto; /* Центрування секції */
+}
+
+/* Стиль для лівого блоку тексту */
+.removalList {
+  flex: 1;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  color: #333;
+  text-align: left;
+  max-width: 550px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.removalList strong {
+  color: #8b7c38;
+  font-size: 1.2rem;
+}
+
+.removalList b {
+  color: #388b84;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.removalTitle {
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.removalInfo {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+/* Стиль для правого блоку зображення */
+.removalImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  max-width: 550px;
+}
+
+.removalImage img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.removalImage img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.removalList h3 {
+  color: #2980b9;
+  font-size: 1.4rem;
+  margin: 20px 0 10px;
+}
+
+.removalList p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.removalList ul {
+  margin-left: 20px;
+  padding-left: 0;
+  list-style-type: disc;
+  color: #444;
+}
+
+.removalList li {
+  margin: 5px 0;
+}
+
+.removalTitle {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .removalInfo {
+    flex-direction: column;
+    padding: 20px;
+  }
+}

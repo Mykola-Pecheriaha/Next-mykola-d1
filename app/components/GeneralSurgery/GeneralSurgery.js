@@ -8,7 +8,7 @@ const GeneralSurgery = () => {
     <div className={styles.bodyContainer}>
       <div className={styles.image}>
         <Image
-          src="/gernio.jpg" // Зображення для грижі (з папки public)
+          src="/Tors.jpg" // Зображення для грижі (з папки public)
           alt="Breast Surgery"
           width={1350}
           height={1350}

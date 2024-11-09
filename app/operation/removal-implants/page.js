@@ -1,7 +1,12 @@
 import React from 'react'
+import RemovalImmp from '../../components/operations/RemovalImmp/RemovalImmp'
 
 const RemovalImplants = () => {
-  return <div>Видалення та заміна грудних імплантів</div>
+  return (
+    <div>
+      <RemovalImmp />
+    </div>
+  )
 }
 
 export default RemovalImplants
