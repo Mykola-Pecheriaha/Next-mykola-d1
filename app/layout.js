@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import Header from './components/Header'
 import ContactsBar from './components/ContactsBar/ContactsBar'
 import Footer from './components/Footer/Footer' // Імпортуйте Footer
+import CallUsModalWrapper from './components/CallUsModalWrapper/CallUsModalWrapper'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -38,6 +39,8 @@ export default function RootLayout({ children }) {
         </div>
         <div className="container">{children}</div>
         <Footer /> {/* Додаємо Footer */}
+        {/* Додаємо CallUsModalWrapper */}
+        <CallUsModalWrapper />
       </body>
     </html>
   )

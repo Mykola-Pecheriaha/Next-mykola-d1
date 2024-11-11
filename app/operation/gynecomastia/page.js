@@ -1,7 +1,11 @@
 import React from 'react'
 
 const Ginecomastia = () => {
-  return <div>Видалення гінекомастії</div>
+  return (
+    <div>
+      <h2>Сайт в розробці</h2>
+    </div>
+  )
 }
 
 export default Ginecomastia

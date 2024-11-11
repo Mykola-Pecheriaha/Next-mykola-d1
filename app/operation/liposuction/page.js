@@ -1,5 +1,9 @@
 const Liposuction = () => {
-  return <div>Liposuction</div>
+  return (
+    <div>
+      <h2>Сайт в розробці</h2>
+    </div>
+  )
 }
 
 export default Liposuction
